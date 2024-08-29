@@ -1,0 +1,153 @@
+/* src/Components/Sidebar.css */
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #333;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.sidebar-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.heading {
+  font-size: 24px;
+  text-align: center;
+  margin: 0;
+  color: white;
+  text-decoration: none; /* Remove underline */
+  cursor: pointer; /* Make it clickable */
+}
+
+.heading:hover {
+  color: #ccc; /* Change color on hover to indicate interactivity */
+}
+
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-item {
+  color: white;
+  text-decoration: none;
+  margin: 10px 0;
+  font-size: 18px;
+  transition: background 0.3s;
+}
+
+.nav-item:hover {
+  background: #444;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.sub-sections {
+  margin-top: 20px;
+}
+
+.sub-heading {
+  font-size: 18px; /* Adjust the size to match your design */
+  font-weight: bold; /* Make it stand out */
+  margin: 10px 0;
+}
+
+.sub-item {
+  color: white;
+  text-decoration: none;
+  margin: 5px 0;
+  font-size: 16px;
+  transition: background 0.3s;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.sub-item:hover {
+  background: #444;
+}
+
+/* src/Components/Sidebar.css */
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #333;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.sidebar-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the left */
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.heading {
+  font-size: 24px;
+  margin: 0;
+  text-align: left; /* Align text to the left */
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-item {
+  color: white;
+  text-decoration: none;
+  margin: 10px 0;
+  font-size: 18px;
+  transition: background 0.3s;
+}
+
+.nav-item:hover {
+  background: #444;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.sub-sections {
+  margin-top: 20px;
+}
+
+.sub-heading {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.sub-item {
+  color: white;
+  text-decoration: none;
+  margin: 5px 0;
+  font-size: 16px;
+  transition: background 0.3s;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.sub-item:hover {
+  background: #444;
+}
